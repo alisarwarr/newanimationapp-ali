@@ -1,0 +1,331 @@
+.thirdpage {
+    background-color: rgb(202, 200, 200);
+
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    top: 96.2rem;
+
+    .container {
+        margin-left: 10rem;
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+
+            &_left {
+                a {
+                    color: black;
+                    animation: light 1.5s linear infinite;
+                }
+
+                margin-top: 4rem;
+                margin-left: -10rem;
+                font-family: newfont;
+            }
+
+            &_right {
+                margin-left: -20rem;
+
+                display: flex;
+                align-items: center;
+
+                .links {
+                    margin-left: 4rem;
+
+                    h5 {
+                        font-size: 1.05rem;
+                        letter-spacing: 0.06rem;
+                        word-spacing: 0.11rem;
+                    }
+                    a {
+                        display: block;
+                        margin-top: 1rem;
+                        text-decoration: none;
+                        font-family: newfont;
+                        color: black;
+                    }
+
+                    a:hover {
+                        color: red;
+                        font-weight: bold;
+                    }
+                }
+
+                .social-links {
+                    margin-top: 1.92rem;
+                    margin-left: 2.63rem;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 16rem;
+
+                    h5 {
+                        margin-left: 0.86rem;
+                    }
+
+                    .buttons-social {
+                        a {
+                            display: inline;
+                            margin-left: 0.35rem;
+
+                            button {
+                                background-color: transparent;
+                                border: 0;
+
+                                input {
+                                    max-width: 1.73rem;
+                                    min-width: 1.73rem;
+                                    max-height: 1.73rem;
+                                    min-height: 1.73rem;
+                                    outline: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .appbarr {
+        background-color: black !important;    //appbar se target pe !important lagana parega
+        margin-top: 1.6rem;
+
+        &_toolbar {
+            display: flex;
+            justify-content: center;
+
+            button {
+                font-size: 1.25rem;
+                font-family: newfont;
+                letter-spacing: 0.057rem;
+                word-spacing: 0.087rem;
+                text-transform: lowercase;
+                border-radius: 0;
+                height: 2.5rem;
+                color: white !important;
+                background-color: transparent;
+                line-height: 0.85rem;
+
+                ul {
+                    margin-top: 0.45rem;
+                    margin-left: -2.4rem;
+                    display: flex;
+
+                    li {
+                        list-style-type: none;
+                        animation: light 1.5s linear infinite;
+                        margin-left: 0.05rem;
+                    }
+
+                    li:nth-child(1) {
+                        animation-delay: 0s;
+                    }
+                    li:nth-child(2) {
+                        animation-delay: 0.1s;
+                    }
+                    li:nth-child(3) {
+                        animation-delay: 0.2s;
+                    }
+                    li:nth-child(4) {
+                        animation-delay: 0.3s;
+                    }
+                    li:nth-child(5) {
+                        animation-delay: 0.4s;
+                    }
+                    li:nth-child(6) {
+                        animation-delay: 0.5s;
+                    }
+                    li:nth-child(7) {
+                        animation-delay: 0.6s;
+                    }
+                    li:nth-child(8) {
+                        animation-delay: 0.7s;
+                    }
+                    li:nth-child(9) {
+                        animation-delay: 0.8s;
+                    }
+
+                    span {
+                        padding-left: 0.44rem;
+                        padding-right: 0.44rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@keyframes light{
+    0% {
+        color: white !important;
+        text-shadow: none;
+    }
+    90% {
+        color: white !important;
+        text-shadow: none;
+    }
+    100% {
+        color: #f1c40f;
+        text-shadow: 0 0 1rem #d35400, 0 0 7rem #d35400;
+    }
+}
+
+
+
+
+@media(max-width: 1326px) {
+    .appbarr {
+        background-color: black !important;    //appbar se target pe !important lagana parega
+        margin-top: 1.6rem;
+    }
+}
+@media(max-width: 1326px) {
+    .thirdpage {
+        top: 97.9rem;
+        height: 19.5rem;
+    }
+}
+@media(max-width: 858px) {
+    .thirdpage {
+        height: 19.8rem;
+    }
+}
+@media(max-width: 840px) {
+    .thirdpage {
+        top: 98.9rem;
+    }
+}
+@media(max-width: 808px) {
+    .thirdpage {
+        top: 101.2rem;
+    }
+}
+@media(max-width: 782px) {
+    .thirdpage {
+        top: 103.3rem;
+    }
+}
+@media(max-width: 729px) {
+    .thirdpage {
+        top: 102.3rem;
+    }
+}
+@media(max-width: 600px) {
+    .thirdpage {
+        top: 135.7rem;
+
+        .container {
+            .footer {
+                &_right {
+                    margin-left: 0.93rem;    
+                }
+            }    
+        }
+    }
+
+    #hideon600 {
+        display: none;
+    }
+}
+@media(max-width: 541px) {
+    .thirdpage {
+        height: 22rem;
+    }
+}
+@media(max-width: 483px) {
+    .thirdpage {
+        top: 146.85rem;
+    }
+}
+@media(max-width: 420px) {
+    .thirdpage {
+        top: 146.85rem;
+        height: 24.5rem;
+    }
+}
+@media(max-width: 390px) {
+    .thirdpage {
+        .container {
+            .footer {
+                &_left {
+                    margin-left: -4.1rem;    
+                }
+
+                &_right {
+                    .social-links {
+                        h5 {
+                            display: none;
+                        }
+
+                        .buttons-social {
+                            margin-left: 0.9rem;
+                            a {
+                                margin-left: -0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+@media(max-width: 337px) {
+    .thirdpage {
+        height: 32rem;
+    }
+}
+@media(max-width: 327px) {
+    .thirdpage {
+        .container {
+            .footer {
+                &_left {
+                    margin-left: -8.5rem;    
+                }
+
+                &_right {
+                    margin-left: -2.93rem;    
+                }
+            }
+        }
+    }
+}
+@media(max-width: 300px) {
+    .social-links {
+        display: none !important;
+    }
+}
+@media(max-width: 249px) {
+    .thirdpage {
+        top: 153.6rem;
+    }
+}
+@media(max-width: 234px) {
+    .thirdpage {
+        top: 157.5rem;
+    }
+}
+@media(max-width: 225px) {
+    .thirdpage {
+        top: 165.6rem;
+    }
+}
+@media(max-width: 216px) {
+    .thirdpage {
+        top: 174rem;
+    }
+}
+@media(max-width: 202px) {
+    .thirdpage {
+        top: 173.7rem;
+    }
+}

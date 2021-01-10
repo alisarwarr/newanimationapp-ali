@@ -1,0 +1,436 @@
+.appbar {
+    background-color: white !important;    //appbar se target pe !important lagana parega
+    box-shadow: none !important;
+    color: black !important;
+
+    .header {
+        &_title {
+            display: flex;
+            flex: 1;
+
+            p {
+                font-family: fbfont;
+                font-size: 2rem;
+                letter-spacing: -0.2rem;
+                margin-left: 1rem;
+                padding-top: 0.25rem;
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+                text-align: center;
+                width: 9rem;
+                height: 3.5rem;
+
+                ul {
+                    margin-top: 0.2rem;
+                    margin-left: -2.4rem;
+
+                    li {
+                        list-style-type: none;
+                        display: inline;
+                        animation: light 1.2s linear infinite;
+                    }
+
+                    li:nth-child(1) {
+                        animation-delay: 0s;
+                    }
+                    li:nth-child(2) {
+                        animation-delay: 0.2s;
+                    }
+                    li:nth-child(3) {
+                        animation-delay: 0.4s;
+                    }
+                    li:nth-child(4) {
+                        animation-delay: 0.6s;
+                    }
+                }
+            }
+        }
+
+        &_tabs {
+            .tab {
+                font-size: 1rem;
+                color: black;
+                &_icon {
+                    font-size: 1.45rem;
+                }
+            }
+
+            .selected {
+                font-weight: bold;
+                .tab_icon {
+                    font-size: 1.75rem;
+                }
+            }
+        }
+
+        .btn, .notselectedbtn {
+            color: black;
+            border-radius: 0;
+            border: 1.2px solid black;
+            text-transform: capitalize;
+            margin-left: 0.34rem;
+            width: 6rem;
+            text-align: center;
+        }
+
+        .selectedbtn {
+            color: white;
+            background-color: red;
+            border-color: transparent;
+            font-weight: bold;
+        }
+
+    }
+}
+.text {
+    font-family: instafont;
+    font-size: 1.4rem;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.17em;
+}
+.whitehover:hover {
+    background-color: white !important;
+    color: black !important;
+}
+.blackhover:hover {
+    background-color: black !important;
+    color: white !important;
+}
+#shade {
+    //Google inspect copied
+    box-shadow: 0 2px 4px rgba(70, 63, 63, 0.06) !important;
+    border-bottom: 1px solid #424141;
+}
+
+
+
+
+
+.appbarScrolled {
+    background-color: black !important;
+    color: white !important;
+
+    .header {
+        &_title {
+            p {
+                ul {
+                    margin-top: 0.2rem;
+                    margin-left: -2.4rem;
+
+                    li {
+                        list-style-type: none;
+                        display: inline;
+                        color: white !important;
+                        animation: light 1.2s linear infinite;
+                    }
+
+                    li:nth-child(1) {
+                        animation-delay: 0s;
+                    }
+                    li:nth-child(2) {
+                        animation-delay: 0.2s;
+                    }
+                    li:nth-child(3) {
+                        animation-delay: 0.4s;
+                    }
+                    li:nth-child(4) {
+                        animation-delay: 0.6s;
+                    }
+                }
+
+            }
+        }
+
+        .tab {
+            color: white;
+        }
+
+        .btn, .notselectedbtn {
+            color: white;
+            border-color: white;
+        }
+
+        .selectedbtn {
+            color: black;
+            border-color: transparent;
+        }
+    }
+}
+
+
+
+
+
+@keyframes light{
+    0% {
+        text-shadow: none;
+    }
+    90% {
+        text-shadow: none;
+    }
+    100% {
+        color: #f1c40f;
+        text-shadow: 0 0 1rem #d35400, 0 0 7rem #d35400;
+    }
+}
+
+
+
+
+
+@media(max-width: 1326px) {
+    .appbar {
+        .header {
+            p {
+                padding-top: 0.05rem;
+                padding-left: 0.3rem;
+                height: 3.17rem;
+                font-size: 2.2rem;
+            }
+        }
+    }
+}
+@media(max-width: 1126px) {
+    .appbar {
+        .header {
+            p {
+                padding-left: 0.1rem;
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+@media(max-width: 1070px) {
+    .appbar {
+        .header {
+            p {
+                padding-top: 0.03rem;
+                padding-left: 0.1rem;
+                height: 3.07rem;
+                font-size: 2.6rem;
+            }
+        }
+    }
+
+    #hideon1070 {
+        display: none;
+    }
+}
+@media(max-width: 1040px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-left: -1rem;
+
+                p {
+                    height: 3.13rem;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 1015px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-left: -1.85rem;
+
+                p {
+                    height: 2.96rem;
+                    width: 9.79rem;
+                    font-size: 2.67rem;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 1000px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-top: -0.55rem;
+
+                p {
+                    height: 3.3rem;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 940px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-top: -0.44rem;
+                margin-left: -2.97rem;
+            }
+        }
+    }
+}
+@media(max-width: 912px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-top: -0.44rem;
+                margin-left: -2.97rem;
+            }
+            &_tabs {
+                .tab {
+                    margin-left: -0.9rem;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 860px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-top: 0.04rem;
+                margin-left: -2.97rem;
+            }
+
+            p {
+                font-size: 2.6rem;
+            }        
+        }
+    }
+
+    #center {
+        width: 82.5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #hideon860 {
+        display: none;
+    }
+}
+@media(max-width: 780px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-left: -3.97rem;
+            }
+        }
+    }
+    
+
+    #center {
+        display: flex;
+        justify-content: flex-end;
+        height: 65px;
+    }
+
+    #tab4 {
+        display: none;
+    }
+}
+@media(max-width: 666px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-left: -4.87rem;
+            }
+        }
+    }
+}
+@media(max-width: 616px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-left: -5.16rem;
+            }
+        }
+    }
+
+    #center {
+        width: 60%;
+    }
+}
+@media(max-width: 370px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-left: -9.16rem;
+            }
+        }
+    }
+
+    #center {
+        width: 70%;
+    }
+}
+@media(max-width: 323px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-left: -10.66rem;
+            }
+        }
+    }
+
+    #center {
+        width: 75%;
+    }
+}
+@media(max-width: 304px) {
+    #center {
+        width: 76%;
+    }
+}
+@media(max-width: 300px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-left: -11.66rem;
+            }
+        }
+    }
+
+    #center {
+        width: 79%;
+    }
+}
+@media(max-width: 297px) {
+    #center {
+        width: 74%;
+    }
+
+    #tab3 {
+        display: none;
+    }
+}
+@media(max-width: 259px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-left: -13.96rem;
+            }
+        }
+    }
+
+}
+@media(max-width: 231px) {
+    .appbar {
+        .header {
+            &_title {
+                margin-left: -15.66rem;
+            }
+        }
+    }
+}
+@media(max-width: 217px) {
+    .appbar {
+        .header {
+            &_title {
+                justify-content: center;
+                margin-left: -30rem;
+            }
+        }
+    }
+
+    #center {
+        display: none;
+    }
+}

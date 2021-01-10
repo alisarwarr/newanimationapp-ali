@@ -1,0 +1,27 @@
+@import './Main.scss';
+@import './FirstPage.scss';
+@import './SecondPage.scss';
+@import './ThirdPage.scss';
+
+
+
+
+
+
+@font-face {
+    src: url('./instafont.ttf');
+    font-family: "instafont";
+}
+@font-face {
+    src: url('./fbfont.OTF');
+    font-family: "fbfont";
+}
+@font-face {
+    src: url('./newfont.ttf');
+    font-family: "newfont";
+}
+* {
+    button {
+        outline: none !important;
+    }
+}

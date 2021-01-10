@@ -1,0 +1,883 @@
+.firstpage {
+    background-color: black;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 1rem;
+
+    display: flex;
+
+    .firstpagebox {
+        margin-top: 5.82rem;
+        margin-left: 2rem;
+
+        &_title {
+            color: white;
+            width: 45rem;
+            height: 6rem;
+            font-size: 2.7rem;
+            font-family: fbfont;
+            text-transform: capitalize;
+            text-align: center;
+            word-spacing: 0.17rem;
+            letter-spacing: 0.09rem;
+            line-height: 3.3rem;
+        }
+    
+        &_para {
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: instafont;
+            letter-spacing: 0.2rem;
+            word-spacing: 0.25rem;
+            line-height: 1.82rem;
+            display: flex;
+            justify-content: center;
+            height: 20rem;
+        }
+
+        &_btn {
+            width: 45rem;
+            display: flex;
+            justify-content: center;
+            margin-top: -0.45rem;
+
+            .btn, .notselectedbtn {
+                color: white;
+                background-color: transparent;
+                font-size: 1.2rem;
+                font-family: serif;
+                padding: 0.5rem;
+                width: 20rem;
+                border-radius: 50px;
+                border: 1.1px solid white;
+                letter-spacing: 0.09rem;
+                word-spacing: 0.1rem;
+            }
+        }
+
+        .selectedbtn {
+            border-color: transparent !important;
+            background-color: red !important;
+            border-radius: 50px;
+        }
+    }
+
+
+    figure {
+        margin-left: -0.7em;
+        margin-top: 3.1rem;
+        overflow: hidden;
+
+        .pic {
+            width: 38rem;
+            height: 40rem;
+        }
+    }
+}
+
+
+
+
+
+@media(max-width: 1326px) {
+    html {
+        font-size: 98%;
+    }
+    
+    .firstpage {
+        height: 129%;
+    }
+
+    .secondpage {     //have to do beacuse height change of secondpage
+        top: 42.6rem !important;
+    }
+}
+@media(max-width: 1305px) {
+    html {
+        font-size: 97.5%;
+    }
+
+    .firstpage {
+        height: 127%;
+        figure {
+            margin-left: -0.9em;
+        }    
+    }
+}
+@media(max-width: 1295px) {
+    html {
+        font-size: 95.5%;
+    }
+
+    .firstpage {
+        height: 125%;
+        figure {
+            margin-left: -1.4em;
+        }    
+    }
+}
+@media(max-width: 1265px) {
+    html {
+        font-size: 94%;
+    }
+
+    .firstpage {
+        height: 123%;
+        figure {
+            margin-left: -2em;
+        }
+    }
+}
+@media(max-width: 1238px) {
+    html {
+        font-size: 93%;
+    }
+
+    .firstpage {
+        figure {
+            margin-left: -2.8em;
+        }
+    }
+}
+@media(max-width: 1212px) {
+    html {
+        font-size: 91.5%;
+    }
+    
+    .firstpage {
+        height: 121%;
+        figure {
+            margin-left: -4.1rem;
+        }
+    }
+}
+@media(max-width: 1169px) {
+    html {
+        font-size: 90%;
+    }
+    
+    .firstpage {
+        height: 119%;
+        figure {
+            margin-left: -5.3rem;
+        }
+    }
+}
+@media(max-width: 1134px) {
+    html {
+        font-size: 87.5%;
+    }
+    
+    .firstpage {
+        height: 117%;
+        figure {
+            margin-left: -5.8rem;
+        }
+    }
+}
+@media(max-width: 1097px) {
+    html {
+        font-size: 86.2%;
+    }
+
+    .firstpage {
+        height: 115%;
+        figure {
+            margin-left: -6.8rem;
+        }
+    }
+}
+@media(max-width: 1068px) {
+    html {
+        font-size: 84.2%;
+    }
+
+    .firstpage {
+        height: 113%;
+        figure {
+            margin-left: -7.2rem;
+        }
+    }
+}
+@media(max-width: 1038px) {
+    html {
+        font-size: 82.6%;
+    }
+
+    .firstpage {
+        height: 111%;
+        figure {
+            margin-left: -7.5rem;
+        }
+    }
+}
+@media(max-width: 1014px) {
+    html {
+        font-size: 81.1%;
+    }
+
+    .firstpage {
+        height: 109%;
+        figure {
+            margin-left: -7.7rem;
+        }
+    }
+}
+@media(max-width: 994px) {
+    html {
+        font-size: 80%;
+    }
+
+    .firstpage {
+        height: 107%;
+        figure {
+            margin-left: -8rem;
+        }
+    }
+}
+@media(max-width: 978px) {
+    html {
+        font-size: 78.4%;
+    }
+
+    .firstpage {
+        height: 105%;
+        figure {
+            margin-left: -7.6rem;
+        }
+    }
+}
+@media(max-width: 964px) {
+    html {
+        font-size: 76%;
+    }
+
+    .firstpage {
+        height: 101%;
+        figure {
+            margin-left: -8rem;
+        }
+    }
+}
+@media(max-width: 913px) {
+    html {
+        font-size: 73.6%;
+    }
+
+    .firstpage {
+        height: 97%;
+        figure {
+            margin-left: -8.4rem;
+        }
+    }
+}
+@media(max-width: 898px) {
+    html {
+        font-size: 72.1%;
+    }
+
+    .firstpage {
+        height: 94%;
+        figure {
+            margin-left: -7.9rem;
+        }
+    }
+}
+@media(max-width: 886px) {
+    html {
+        font-size: 70%;
+    }
+
+    .firstpage {
+        figure {
+            margin-left: -8.3rem;
+        }
+    }
+}
+@media(max-width: 858px) {
+    html {
+        font-size: 68.8%;
+    }
+}
+@media(max-width: 839px) {
+    html {
+        font-size: 66.5%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 7rem;
+        }
+        figure {
+            margin-left: -8.95rem;
+        }
+    }
+
+    .secondpage {     //have to do  beacuse height change of secondpage
+        top: 44.4rem !important;
+    }
+}
+@media(max-width: 808px) {
+    html {
+        font-size: 64.7%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 9.1rem;
+        }
+        figure {
+            margin-top: 5.6rem;
+            margin-left: -9.5rem;
+        }
+    }
+
+    .secondpage {     //have to do  beacuse height change of secondpage
+        top: 46.2rem !important;
+    }
+}
+@media(max-width: 782px) {
+    html {
+        font-size: 62.3%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 10.33rem;
+            .btn {
+                margin-top: 1.45rem;
+            } 
+        }
+
+        figure {
+            margin-left: -7.85rem;
+        }
+    }
+
+    .secondpage {     //have to do beacuse height change of secondpagedo
+        top: 49rem !important;
+    }
+}
+@media(max-width: 772px) {
+    html {
+        font-size: 61.6%;
+    }
+}
+@media(max-width: 764px) {
+    html {
+        font-size: 58.7%;
+    }
+
+    .firstpage {
+        height: 87%;
+        .firstpagebox {
+            margin-top: 8.4rem;
+        }
+        figure {
+            margin-top: 5rem;
+            margin-left: -8rem;
+        }
+    }
+
+    .secondpage {     //have to do  beacuse height change of secondpage
+        top: 48.1rem !important;
+    }
+}
+@media(max-width: 728px) {
+    html {
+        font-size: 57.7%;
+    }
+
+    .firstpage {
+        height: 85%;
+        .firstpagebox {
+            margin-top: 8.8rem;
+            .btn {
+                margin-top: 0.45rem;
+            }
+            figure {
+                margin-top: 5.9rem;
+                margin-left: -8.3rem;
+            }
+        }
+    }
+
+    .secondpage {     //have to do beacuse height change of secondpage
+        top: 47.9rem !important;
+    }
+}
+@media(max-width: 714px) {
+    html {
+        font-size: 56.2%;
+    }
+
+    .firstpage {
+        height: 83%;
+        .firstpagebox {
+            .btn {
+                margin-top: 0.95rem;
+            } 
+        }
+    }
+}
+@media(max-width: 697px) {
+    html {
+        font-size: 55.2%;
+    }
+
+    .firstpage {
+        height: 81%;
+        .firstpagebox {
+            .btn {
+                margin-top: 1.78rem;
+            }
+        }
+    }
+
+    .secondpage {     //have to do beacuse height change of secondpage
+        top: 47.7rem !important;
+    }
+}
+@media(max-width: 686px) {
+    html {
+        font-size: 54.2%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            .btn {
+                margin-top: 1.38rem;
+            } 
+        }
+    }
+}
+@media(max-width: 674px) {
+    html {
+        font-size: 53.3%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            .btn {
+                margin-top: 1.18rem;
+            }
+        }
+
+        figure {
+            margin-top: 6.65rem;
+        }
+    }
+}
+@media(max-width: 662px) {
+    html {
+        font-size: 52.4%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            .btn {
+                margin-top: 1.17rem;
+            } 
+        }
+
+        figure {
+            margin-top: 8.35rem;
+        }
+    }
+}
+@media(max-width: 652px) {
+    html {
+        font-size: 51.1%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            .btn {
+                margin-top: 0.72rem;
+            } 
+        }
+
+        figure {
+            margin-top: 9.7rem;
+        }
+    }
+}
+@media(max-width: 636px) {
+    html {
+        font-size: 49.8%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            .btn {
+                margin-top: 1.21rem;
+            } 
+        }
+    }
+}
+@media(max-width: 622px) {
+    html {
+        font-size: 48.6%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            .btn {
+                margin-top: 1.8rem;
+            } 
+        }
+    }
+}
+@media(max-width: 606px) {
+    html {
+        font-size: 48%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            .btn {
+                margin-top: 0.92rem;
+            } 
+        }
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 14.3rem;
+            .btn {
+                margin-top: 1.66rem;
+            } 
+        }
+
+        figure {
+            margin-top: 11.7rem;
+        }
+    }
+}
+@media(max-width: 600px) {
+    .firstpage {
+        height: 120%;
+        flex-direction: column;
+
+        .firstpagebox {
+            width: 45rem;
+            margin-left: 14.5rem;
+            margin-top: 12.1rem;
+
+            &_para {
+                margin-top: 3rem;
+            }
+
+            .btn {
+                margin-top: 0.26rem;
+            }
+        }
+
+        figure {
+            margin-left: 12.8rem !important;
+            margin-top: -9.15rem !important;
+            width: 45rem;
+
+            .pic {
+                width: 49rem;
+                height: 51rem;
+            }
+        }
+    }
+}
+@media(max-width: 540px) {
+    html {
+        font-size: 46%;
+    }
+}
+@media(max-width: 517px) {
+    html {
+        font-size: 45%;
+    }
+
+    .firstpage {
+        figure {
+            margin-top: -2.6rem;
+            margin-left: 17.05rem;
+        }
+    }
+}
+@media(max-width: 501px) {
+    html {
+        font-size: 44%;
+    }
+}
+@media(max-width: 490px) {
+    html {
+        font-size: 43%;
+    }
+}
+@media(max-width: 483px) {
+    html {
+        font-size: 42%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 14.13rem;
+
+            .btn {
+                margin-top: 1.25rem;
+            }
+        }
+
+        figure {
+            margin-top: -0.3rem;
+        }
+    }
+}
+@media(max-width: 474px) {
+    html {
+        font-size: 41%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 15.13rem;
+        }
+    }
+}
+@media(max-width: 462px) {
+    html {
+        font-size: 40%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 16.13rem;
+            
+            .btn {
+                margin-top: 0.76rem;
+            }
+        }
+    }
+}
+@media(max-width: 448px) {
+    html {
+        font-size: 39%;
+    }
+}
+@media(max-width: 440px) {
+    html {
+        font-size: 38%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            .btn {
+                margin-top: 1.25rem;
+            }
+        }
+    }
+}
+@media(max-width: 428px) {
+    html {
+        font-size: 37%;
+    }
+}
+@media(max-width: 416px) {
+    html {
+        font-size: 36%;
+    }
+
+    .firstpage {
+        figure {
+            margin-top: -1.1rem;
+            margin-left: 18.25rem;
+        }
+    }
+}
+@media(max-width: 405px) {
+    html {
+        font-size: 35%;
+    }
+}
+@media(max-width: 394px) {
+    html {
+        font-size: 34%;
+    }
+
+    .firstpage {
+        figure {
+            margin-top: -2.2rem;
+        }
+    }
+}
+@media(max-width: 381px) {
+    html {
+        font-size: 33%;
+    }
+
+    .firstpage {
+        figure {
+            margin-top: -3.2rem;
+        }
+    }
+}
+@media(max-width: 374px) {
+    html {
+        font-size: 32%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 17.83rem;
+        }
+
+        figure {
+            margin-top: -2.7rem;
+        }
+    }
+}
+@media(max-width: 360px) {
+    html {
+        font-size: 31%;
+    }
+}
+@media(max-width: 350px) {
+    html {
+        font-size: 30%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 19.13rem;
+        }
+    }
+}
+@media(max-width: 337px) {
+    html {
+        font-size: 29%;
+    }
+}
+@media(max-width: 326px) {
+    html {
+        font-size: 28%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 32rem;
+            
+            &_para {
+                display: none;
+            }
+
+            .btn {
+                margin-top: 2.1rem;
+            } 
+        }
+
+        figure {
+            .pic {
+                width: 49.6rem;
+                height: 51.6rem;
+            }
+        }
+    }
+}
+@media(max-width: 316px) {
+    html {
+        font-size: 27%;
+    }
+}
+@media(max-width: 304px) {
+    html {
+        font-size: 26%;
+    }
+}
+@media(max-width: 292px) {
+    html {
+        font-size: 25%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 30.7rem !important;
+        }
+    }
+}
+@media(max-width: 282px) {
+    html {
+        font-size: 24%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 27.45rem;
+        }
+    }
+}
+@media(max-width: 270px) {
+    html {
+        font-size: 23%;
+    }
+}
+@media(max-width: 259px) {
+    html {
+        font-size: 21.7%;
+    }
+}
+@media(max-width: 248px) {
+    html {
+        font-size: 20.8%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 33.2rem !important;
+        }
+    }
+}
+@media(max-width: 234px) {
+    html {
+        font-size: 20%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 33.8rem !important;
+        }
+    }
+}
+@media(max-width: 225px) {
+    html {
+        font-size: 19.2%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 39.8rem !important;
+        }
+    }
+}
+@media(max-width: 216px) {
+    html {
+        font-size: 18.3%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 41.6rem !important;
+        }
+    }
+}
+@media(max-width: 201px) {
+    html {
+        font-size: 18%;
+    }
+
+    .firstpage {
+        .firstpagebox {
+            margin-top: 33.85rem !important;
+        }
+    }
+}
